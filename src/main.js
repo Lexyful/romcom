@@ -110,6 +110,8 @@ function displaySavedCoversGallery() {
     </section>`;
   }
 }
+// INSTRUCTORS!!!- comment out lines 114-126 to view the three Iterations above!
+
 
 //   for(var i = 0; i < savedCovers.length; i++) {
 //     savedCovers[i].addEventListener('dblclick', deleteCover)
@@ -118,9 +120,13 @@ function displaySavedCoversGallery() {
 // function deleteCover(e) {
 //   var parent = e.currentTarget.parentElement
 //   var target = e.currentTargetparent
-//   parent.removeChild(target)
+//   parent.remove()
 //   for (var i = 0; i < savedCovers.length; i++) {
-//     if (savedCovers[i].id === target.miniCovers)
-//     savedCovers.splice(i, 1)
+//     if (parent.id === savedCovers[i].id.toString) {
+//       savedCovers.splice(i, 1)
+//     }
 //   }
+// }
+// function getRandomIndex(array) {
+//   return Math.floor(Math.random() * array.lenghth)
 // }
